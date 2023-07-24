@@ -1,12 +1,6 @@
-# @itross/fp-pager
+# @itross/eslint-config-itr
 
-Fastify plugin to get pagination params from request and return paged resources in response.
-
-## Install
-
-```bash
-npm i @itross/fp-pager
-```
+JavaScript base Style Guide for @itross projects.
 
 ## License
 
