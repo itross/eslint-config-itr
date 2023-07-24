@@ -1,0 +1,24 @@
+{
+  "name": "@itross/eslint-config-itr",
+  "version": "1.0.0",
+  "description": "JavaScript ITR Style Guide",
+  "main": "index.js",
+  "private": false,
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itross/eslint-config-itr.git"
+  },
+  "keywords": [
+    "eslint",
+    "eslintconfig"
+  ],
+  "author": "Luca Stasio <joshuagame@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/itross/eslint-config-itr/issues"
+  },
+  "homepage": "https://github.com/itross/eslint-config-itr#readme",
+  "peerDependencies": {
+    "eslint": ">=3"
+  }
+}
