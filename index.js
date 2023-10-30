@@ -41,7 +41,7 @@ module.exports = {
         ignorePattern: '.*',
       },
     }],
-    'comma-dangle': ['error', 'always-multiline'],
+    'comma-dangle': 'off',
     'comma-spacing': 'error',
     'comma-style': 'error',
     'computed-property-spacing': 'error',

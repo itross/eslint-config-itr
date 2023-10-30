@@ -1,6 +1,6 @@
 {
   "name": "@itross/eslint-config-itr",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JavaScript ITR Style Guide",
   "main": "index.js",
   "private": false,
