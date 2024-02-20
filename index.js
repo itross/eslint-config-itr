@@ -135,7 +135,6 @@ module.exports = {
     'valid-typeof': ['error', { requireStringLiterals: true }],
 
     // ESLint recommended rules that we disable
-    'no-inner-declarations': 'off',
-    'impiedStrict': 'global'
+    'no-inner-declarations': 'off'
   }
 };
