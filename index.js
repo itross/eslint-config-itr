@@ -29,18 +29,7 @@ module.exports = {
     'block-scoped-var': 'error',
     'block-spacing': 'error',
     'brace-style': ['error', '1tbs', { allowSingleLine: true }],
-    'capitalized-comments': ['error', 'always', {
-      line: {
-        // Ignore all lines that have less characters than 20 and all lines that
-        // start with something that looks like a variable name or code.
-        ignorePattern: '.{0,20}$|[a-z]+ ?[0-9A-Z_.(/=:[#-]|std|http|ssh|ftp',
-        ignoreInlineComments: true,
-        ignoreConsecutiveComments: true,
-      },
-      block: {
-        ignorePattern: '.*',
-      },
-    }],
+    'capitalized-comments': 'off',
     'comma-dangle': 'off',
     'comma-spacing': 'error',
     'comma-style': 'error',
@@ -147,5 +136,6 @@ module.exports = {
 
     // ESLint recommended rules that we disable
     'no-inner-declarations': 'off',
+    'impiedStrict': 'global'
   }
 };
